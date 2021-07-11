@@ -1,0 +1,16 @@
+/* HEADER STYLES */
+.header {
+    background: var(--white-color);
+    color: var(--black-color);
+    border-bottom: 1px solid #e5e5e5;
+  
+    & .container {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+    & .logo {
+    margin-right: 93px;
+  }
+}

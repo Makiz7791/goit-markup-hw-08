@@ -1,0 +1,33 @@
+.about .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-list-items-li p {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+  &-list li {
+    width: 270px;
+  }
+  &-a {
+    width: 270px;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

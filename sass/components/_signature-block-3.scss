@@ -1,0 +1,66 @@
+.signature-block-3 {
+    margin-left: 93px;
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-white-color);
+  }
+  &-form {
+    display: flex;
+    width: 570px;
+    height: 86px;
+  }
+  &-mail {
+    width: 358px;
+    height: 50px;
+    background-color: var(--black-background-color);
+    margin-top: 20px;
+    margin-right: 12px;
+    color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+  }
+  &-mail::placeholder {
+    padding-left: 16px;
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+  }
+  &-text {
+    position: relative;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    padding-right: 62px;
+    padding-left: 29px;
+    border: 0px solid transparent;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--text-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &-text::after {
+    background-image: url(../images/icons/icon-send.svg);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    content: '';
+    top: 13px;
+    right: 28px;
+    fill: var(--text-white-color);
+  }
+  &-text:hover {
+    background-color: var(--button-hover);
+  }
