@@ -1,0 +1,93 @@
+.advantages {
+    &__list {
+      padding-left: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+  
+      @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -30px;
+        margin-bottom: -30px;
+      }
+  
+      @media screen and (min-width: 1200px) {
+        margin-left: 0;
+        margin-bottom: 0;
+        flex-wrap: nowrap;
+      }
+    }
+  
+    @media screen and (max-width: 767px) {
+      &__item:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+  
+    @media screen and (max-width: 1199px) {
+      &__item {
+        @media screen and (min-width: 768px) {
+          margin-left: 30px;
+          margin-bottom: 30px;
+          flex-basis: calc((100% - 60px) / 2);
+        }
+      }
+    }
+  
+    @media screen and (min-width: 1200px) {
+      &__item:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  
+    &__svg-background {
+      height: 120px;
+  
+      border-radius: 4px;
+      margin-bottom: 30px;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      background-color: var(--white-buttons-color);
+    }
+  
+    &__title {
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 10px;
+      text-align: center;
+      @media screen and (min-width: 768px) {
+        text-align: left;
+      }
+    }
+  
+    &__text {
+      margin-top: 0;
+      margin-bottom: 0;
+      @media screen and (min-width: 1200px) {
+        max-width: 270px;
+      }
+    }
+  }
+  
+  .antenna-icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .clock-icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .diagram-icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .astronaut-icon {
+    width: 70px;
+    height: 70px;
+  }
